@@ -28,20 +28,17 @@ body{
     padding-left: 353px;
     padding-right: 353px;
     width: 1160px;
+    font-size: 1em;
 }
 
 
 header{
-    color: aliceblue;
+    color: white;
     background-color: #782221;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: "Lato";
-}
-
-h1{
-    font-family: raleway;
 }
 
 
@@ -55,9 +52,11 @@ h1{
     justify-content: space-between;
 }
 
+
 #contact :hover{
     text-decoration: underline;
 }
+
 
 a{
     color: white;
@@ -68,7 +67,7 @@ a{
 }
 
 
-.mail{
+#mail{
     margin-left: -4%;
 }
 
@@ -100,17 +99,18 @@ main{
     margin-top: 50px;
 }
 
+
 #h{
     color: black;
     background-color: #dbc2a4;
     padding-left: 10px;
 }
 
+
 section{
     font-family: "raleway";
-    font-weight: 700;
+    font-weight: 500;
 }
-
 
 
 #partie1{
@@ -127,6 +127,7 @@ section{
 /*  FIN de Partie principale G */
 
 
+
 /*  Partie principale D */
 #partie2{
     color: black;
@@ -139,9 +140,11 @@ section{
     flex-direction: column;
 }
 
+
 #partie2 :hover{
-    color: #6D071A;
+    border-right: 2px solid #6D071A;
 }
+
 
 .H{
     border-left: 10px solid #782221;
@@ -149,20 +152,21 @@ section{
     margin-top: 50px;
 }
 
+
 #H{
     border-left: 10px solid #782221;
     background-color: #dbc2a4;
 }
 
+
 .Inti{
     font-weight: 900;
 }
-
 /*  FIN de Partie principale D */
 
 
-/*Bas de page*/
 
+/*Bas de page*/
 footer{
     color: white;
     background-color: #782221;
@@ -172,13 +176,19 @@ footer{
 }
 
 .fin{
-    width: 3%;
-    height: 3%;
-    border-radius: 10%;
+    width: 30px;
+    height: 30px;
+    border-radius: 10%; 
+    opacity: 1;
 }
 
+.fin:hover{
+    opacity: 0.8;
+}
+
+
 #fin{
-    margin-top: 10;
+    margin-top: 10px;
     margin-bottom: 15px;
     display: flex;
     flex-direction: row;
